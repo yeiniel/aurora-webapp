@@ -8,5 +8,7 @@ before_install: "pip install pipenv"
 # command to install dependencies
 install: "pipenv install -d"
 
+before_script: "flake8 aurora_webapp/"
+
 # command to run tests
 script: "nosetests"
