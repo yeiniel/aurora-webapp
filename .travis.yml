@@ -7,3 +7,6 @@ python:
 install:
   - "pip install pipenv"
   - "pipenv install -d"
+
+# command to run tests
+script: "nosetests"
