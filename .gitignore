@@ -2,4 +2,4 @@
 /Pipfile*
 
 # locally generated documentation
-/doc/_build/
+/docs/_build/
