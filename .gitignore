@@ -1,2 +1,5 @@
+# pipenv artifacts
+/Pipfile*
+
 # locally generated documentation
 /doc/_build/

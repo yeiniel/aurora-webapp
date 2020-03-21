@@ -29,6 +29,16 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-__all__ = ["__version__"]
+from . import infrastructure
 
 __version__ = "0.1.0"
+
+__all__ = ['Application']
+
+
+class Application(infrastructure.Application):
+    """ Web application.
+
+    This class built on top of the :mod:`.infrastructure` add a default
+    service invoked for not mapped Web requests.
+    """
