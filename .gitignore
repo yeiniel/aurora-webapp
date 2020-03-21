@@ -1,5 +1,10 @@
 # pipenv artifacts
 /Pipfile*
 
-# locally generated documentation
+# generated documentation
 /docs/_build/
+
+# build products
+/build/
+/dist/
+/aurora_webapp.egg-info/
