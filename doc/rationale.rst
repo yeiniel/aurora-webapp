@@ -17,7 +17,7 @@ Another issue presented on many frameworks is the promotion of interface
 polymorphism on code implemented by the user. A common case is the polymorphism 
 of the return value of request handlers [6]_ [7]_. The latter is counter 
 intuitive because the framework user expect to produce a Web response for each 
-eb request it process. And in many cases what is returned do not have a direct 
+request it process. And in many cases what is returned do not have a direct
 translation into a Web response and require additional components to make this 
 work. Thus moving user code dependency declaration from the interface into the 
 implementation details. This violates the second principle and the thirteenth 
