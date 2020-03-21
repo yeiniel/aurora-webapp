@@ -11,6 +11,7 @@ Welcome to Aurora Web Application Framework's documentation!
    :caption: Contents:
 
    rationale
+   api
 
 
 
