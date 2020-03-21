@@ -58,7 +58,7 @@
 
 import collections
 import unittest
-from aurora.webapp import foundation, mapping
+from . import foundation, mapping
 
 __all__ = ['TestHandler', 'TestRule']
 

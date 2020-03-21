@@ -28,7 +28,7 @@
 # EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 from urllib import parse as urllib_parse
-from .import foundation, mapping
+from . import foundation, mapping
 
 __all__ = ['Application']
 
