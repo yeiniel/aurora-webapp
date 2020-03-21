@@ -30,10 +30,11 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 from . import infrastructure
+from .foundation import wsgi
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
-__all__ = ['Application']
+__all__ = ['Application', 'wsgi']
 
 
 class Application(infrastructure.Application):
